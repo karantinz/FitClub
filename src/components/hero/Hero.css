@@ -161,7 +161,7 @@
     background-color: var(--caloryCard);
     border-radius: 5px;
     padding: 1rem;
-    width: fit-content;
+    width: 13rem;
     position: absolute;
     top: 32rem;
     right: 28rem;
@@ -174,6 +174,7 @@
 .calories>div {
     display: flex;
     flex-direction: column;
+    gap: 1rem;
 }
 
 .calories>div>:nth-child(1) {
@@ -183,4 +184,10 @@
 .calories>div>:nth-child(2) {
     color: #fff;
     font-size: 1.5rem;
+}
+
+.hero-blur {
+    width: 22rem;
+    height: 30rem;
+    left: 0;
 }
